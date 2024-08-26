@@ -7,7 +7,8 @@ CREATE TABLE "users"
 
 -- Inserciones
 INSERT INTO "users" -- Acá podríamos especificar los nombres de las columnas o directamente que se infiera
-VALUES ('Diego2'),
+VALUES ('Diego1'),
+       ('Diego2'),
        ('Diego3'),
        ('Diego4'),
        ('Ricardo');
@@ -25,4 +26,14 @@ LIMIT 2 OFFSET 2;
 -- Clausula where
 SELECT *
 FROM users
-WHERE name LIKE '_ie%'; -- Estas sentencias LIKE pueden ser lentas
+WHERE name LIKE '_ie%';
+-- Estas sentencias LIKE pueden ser lentas
+
+-- Eliminaciones
+DELETE
+FROM users
+WHERE name LIKE '_ie%';
+
+-- DROP vs TRUNCATE
+DROP TABLE users; -- Comando destructivo. La tabla se borra completamente
+TRUNCATE TABLE users; -- Se purgan los registros, pero la tabla seguirá existiendo
