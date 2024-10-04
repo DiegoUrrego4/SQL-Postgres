@@ -20,12 +20,14 @@
     <file url="file://$PROJECT_DIR$/homeworks/section-7/85-idioma-europa.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/homeworks/section-7/pais-mas-ciudades.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/personal-practice/joins.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/personal-practice/solati-tp.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sections-exercises/section-3.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sections-exercises/section-4.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sections-exercises/section-5.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sections-exercises/section-6.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sections-exercises/section-7.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sections-exercises/section-8.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sections-exercises/section-9.sql" dialect="PostgreSQL" />
     <file url="PROJECT" dialect="PostgreSQL" />
   </component>
 </project>
