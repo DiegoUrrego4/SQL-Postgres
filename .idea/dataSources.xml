@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="BD docker" uuid="2edbce3b-c1e3-4ddc-8451-74b434acf4d5">
+    <data-source source="LOCAL" name="BD docker - medium" uuid="6207ea37-21b0-4657-af63-0279b8acb91c">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/course-db</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/medium</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
