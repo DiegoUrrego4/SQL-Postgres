@@ -109,3 +109,21 @@ WITH RECURSIVE multiplication_table(base, val, result) AS (
     WHERE val < 10)
 SELECT *
 FROM multiplication_table;
+
+-- Ejercicio de la vida real
+-- Subordinados que tiene Carlos
+WITH RECURSIVE bosses AS (
+    -- Init
+    SELECT id, name, reports_to, 1 AS depth
+    FROM employees
+    WHERE id = 1
+    UNION
+    -- Recursive
+    SELECT employees.id, employees.name, employees.reports_to, depth + 1
+    FROM employees
+             INNER JOIN bosses ON bosses.id = employees.reports_to
+    WHERE depth < 10)
+SELECT bosses.*, employees.name AS reports_to_name
+FROM bosses
+         LEFT JOIN employees ON employees.id = bosses.reports_to
+ORDER BY depth;
